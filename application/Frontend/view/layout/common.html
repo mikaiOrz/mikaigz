@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- 头信息 -->
+        {block name="head"}
+            {include file="layout:head" /}
+        {/block}
+    </head>
+    <body>
+        <!-- 头部 -->
+        {block name="header"}
+            {include file="layout:header" /}
+        {/block}
+
+        <!-- 菜单 -->
+        {block name="menu"}
+            {include file="layout:menu" /}
+        {/block}
+
+        <!-- 主内容 -->
+        {block name="main"}主内容{/block}
+
+        <!-- 左边分栏 -->
+        {block name="left"}
+            {include file="layout:left" /}
+        {/block}
+
+        <!-- 右边分栏 -->
+        {block name="right"}
+            {include file="layout:right" /}
+        {/block}
+
+        <!-- 底部 -->
+        {block name="footer"}
+            {include file="layout:footer" /}
+        {/block}
+    </body>
+</html>

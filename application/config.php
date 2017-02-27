@@ -56,7 +56,7 @@ return [
     // +----------------------------------------------------------------------
 
     // 默认模块名
-    'default_module'         => 'index',
+    'default_module'         => 'Frontend',
     // 禁止访问模块
     'deny_module_list'       => ['common'],
     // 默认控制器名
@@ -139,7 +139,13 @@ return [
     ],
 
     // 视图输出字符串内容替换
-    'view_replace_str'       => [],
+    'view_replace_str'       => [
+        // mikai add start
+        // '__COMMON__' => dirname($_SERVER['SCRIPT_NAME']).'/public/common',
+        //或者
+        '__COMMON__' => think\Url::build('/').'public/common',
+        // mikai add end
+    ],
     // 默认跳转页面对应的模板文件
     'dispatch_success_tmpl'  => THINK_PATH . 'tpl' . DS . 'dispatch_jump.tpl',
     'dispatch_error_tmpl'    => THINK_PATH . 'tpl' . DS . 'dispatch_jump.tpl',
