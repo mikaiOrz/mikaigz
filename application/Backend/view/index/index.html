@@ -1,0 +1,6 @@
+{extend name="layout:common" /}
+{block name="main"}
+    <div>{$title}</div>
+    {load file='__COMMON__/a.js'}
+    <?php var_dump('__COMMON__'); ?>
+{/block}
