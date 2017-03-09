@@ -144,6 +144,7 @@ return [
         // '__COMMON__' => dirname($_SERVER['SCRIPT_NAME']).'/public/common',
         //或者
         '__COMMON__' => think\Url::build('/').'public/common',
+        '__BACKEND__' => think\Url::build('/').'public/backend',
         // mikai add end
     ],
     // 默认跳转页面对应的模板文件

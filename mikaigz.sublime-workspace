@@ -519,6 +519,21 @@
 	},
 	"buffers":
 	[
+		{
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "mikaigz.sublime-project",
+			"settings":
+			{
+				"buffer_size": 45,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -654,10 +669,40 @@
 	},
 	"expanded_folders":
 	[
-		"/E/wamp/www/luwk/mikaigit/mikaigz"
+		"/E/wamp/www/luwk/mikaigz"
 	],
 	"file_history":
 	[
+		"/E/wamp/www/luwk/mikaigit/mikaigz/application/Backend/view/layout/header.html",
+		"/E/wamp/www/luwk/mikaigit/mikaigz/application/Backend/view/layout/head.html",
+		"/E/wamp/www/luwk/mikaigit/mikaigz/application/Backend/view/index/welcome.html",
+		"/E/wamp/www/luwk/mikaigit/mikaigz/application/Backend/view/layout/footer.html",
+		"/E/wamp/www/luwk/mikaigit/mikaigz/application/Backend/view/layout/common.html",
+		"/E/wamp/www/luwk/mikaigit/mikaigz/application/Backend/view/index/index.html",
+		"/E/wamp/www/luwk/mikaigit/mikaigz/application/Backend/model/Category.php",
+		"/E/wamp/www/luwk/mikaigit/mikaigz/application/Backend/view/layout/left.html",
+		"/E/wamp/www/luwk/mikaigit/mikaigz/application/Backend/controller/Index.php",
+		"/E/wamp/www/luwk/mikaigit/mikaigz/application/Backend/controller/Category.php",
+		"/E/wamp/www/luwk/mikaigit/mikaigz/application/Backend/view/index/category.html",
+		"/E/wamp/www/luwk/mikaigit/mikaigz/public/backend/category.html",
+		"/E/wamp/www/luwk/mikaigit/mikaigz/application/database.php",
+		"/E/wamp/www/luwk/mikaigit/mikaigz/application/Backend/view/layout/right.html",
+		"/E/wamp/www/luwk/mikaigit/mikaigz/application/Backend/view/layout/menu.html",
+		"/E/wamp/www/luwk/mikaigit/mikaigz/application/Backend/view/test/index.html",
+		"/E/wamp/www/luwk/mikaigit/mikaigz/application/Backend/controller/Test.php",
+		"/E/wamp/www/luwk/mikaigit/X-admin/index.html",
+		"/E/wamp/www/luwk/mikaigit/mikaigz/application/config.php",
+		"/E/wamp/www/luwk/mikaigit/mikaigz/public/backend/index.html",
+		"/E/wamp/www/luwk/mikaigit/mikaigz/thinkphp/library/think/App.php",
+		"/E/wamp/www/luwk/mikaigit/mikaigz/index.php",
+		"/E/wamp/www/luwk/mikaigit/mikaigz/application/Backend/controller/Mkbackend.php",
+		"/E/wamp/www/luwk/mikaigit/mikaigz/application/Backend/controller/aaa.php",
+		"/E/wamp/www/luwk/mikaigit/mikaigz/application/Backend/model/Mkmodel.php",
+		"/E/wamp/www/luwk/mikaigit/X-admin/README.md",
+		"/E/wamp/www/luwk/mikaigit/mikaigz/application/Frontend/view/test/contact.html",
+		"/E/wamp/www/luwk/mikaigit/mikaigz/application/Frontend/view/test/archive.html",
+		"/E/wamp/www/luwk/mikaigit/mikaigz/.htaccess",
+		"/E/wamp/www/luwk/mikaigit/.htaccess",
 		"/E/wamp/www/luwk/mikaigit/mikaigz/.gitignore",
 		"/E/wamp/www/luwk/loveschool/Code/JKCMS/wap/my_bindPhone.html",
 		"/E/wamp/www/luwk/loveschool/Code/JKCMS/wap/my_set.html",
@@ -755,37 +800,7 @@
 		"/E/wamp/www/luwk/loveschool/Code/JKCMS/Jingkai/Backend/Template/BrandCategory/add.html",
 		"/E/wamp/www/luwk/loveschool/Code/JKCMS/wap/goods_details.html",
 		"/E/wamp/www/luwk/loveschool/Code/JKCMS/Jingkai/Api/Controller/JKApiController.class.php",
-		"/E/wamp/www/luwk/loveschool/Code/JKCMS/wap/my_apply.html",
-		"/E/wamp/www/luwk/loveschool/Code/JKCMS/wap/cat_editAddress.html",
-		"/E/wamp/www/luwk/loveschool/Code/JKCMS/wap/my_newAddress.html",
-		"/E/wamp/www/luwk/loveschool/Code/JKCMS/Jingkai/Api/Model/SchoolDormitoryModel.class.php",
-		"/E/wamp/www/luwk/loveschool/Code/JKCMS/Jingkai/Api/Controller/StoreController.class.php",
-		"/E/wamp/www/luwk/loveschool/Code/JKCMS/wap/js/wx.js",
-		"/E/wamp/www/luwk/loveschool/Code/JKCMS/wap/store_payment.html",
-		"/E/wamp/www/luwk/loveschool/Code/JKCMS/wap/js/Common/common.js",
-		"/E/wamp/www/luwk/loveschool/Code/JKCMS/Jingkai/Backend/Template/School/index.html",
-		"/E/wamp/www/luwk/loveschool/Code/JKCMS/Jingkai/Backend/Controller/RunFeeController.class.php",
-		"/E/wamp/www/luwk/loveschool/Code/JKCMS/Jingkai/Store/Model/StorePurchaseModel.class.php",
-		"/E/wamp/www/luwk/loveschool/Code/JKCMS/Jingkai/Backend/Template/BrandCategory/index.html",
-		"/E/wamp/www/luwk/loveschool/Code/JKCMS/Jingkai/Backend/Template/BrandCategory/edit.html",
-		"/E/wamp/www/luwk/loveschool/Code/JKCMS/Jingkai/Store/Template/Purchase/index.html",
-		"/E/wamp/www/luwk/loveschool/Code/JKCMS/Jingkai/Store/Controller/PurchaseController.class.php",
-		"/E/wamp/www/luwk/loveschool/Code/JKCMS/Jingkai/Backend/Template/Brand/add.html",
-		"/E/wamp/www/luwk/loveschool/Code/JKCMS/Jingkai/Backend/Model/BrandModel.class.php",
-		"/E/wamp/www/luwk/loveschool/Code/JKCMS/Jingkai/Backend/Template/Brand/view.html",
-		"/E/wamp/www/luwk/loveschool/Code/JKCMS/Jingkai/Backend/Controller/ShopAttributeController.class.php",
-		"/E/wamp/www/luwk/loveschool/Code/JKCMS/Jingkai/Backend/Template/ShopGoodsType/shopAttribute.html",
-		"/E/wamp/www/luwk/loveschool/Code/JKCMS/Jingkai/Backend/Template/ShopGoodsType/index.html",
-		"/E/wamp/www/luwk/loveschool/Code/JKCMS/Jingkai/Backend/Controller/ShopGoodsTypeController.class.php",
-		"/E/wamp/www/luwk/loveschool/Code/JKCMS/Jingkai/Backend/Template/BrandBanner/add.html",
-		"/E/wamp/bin/apache/apache2.4.9/conf/extra/httpd-vhosts.conf",
-		"/C/Windows/System32/drivers/etc/hosts",
-		"/E/wamp/bin/apache/apache2.4.9/conf/httpd.conf",
-		"/E/wamp/www/luwk/loveschool/Code/JKCMS/Jingkai/Backend/Template/BrandBanner/index.html",
-		"/E/wamp/www/luwk/loveschool/Code/JKCMS/Jingkai/Backend/Template/BrandBanner/view.html",
-		"/E/wamp/www/luwk/loveschool/Code/JKCMS/Jingkai/Backend/Template/BrandBanner/edit.html",
-		"/E/wamp/www/luwk/loveschool/Code/JKCMS/Jingkai/Backend/Model/BrandBannerModel.class.php",
-		"/E/wamp/www/luwk/loveschool/Code/JKCMS/Jingkai/Backend/Controller/BrandBannerController.class.php"
+		"/E/wamp/www/luwk/loveschool/Code/JKCMS/wap/my_apply.html"
 	],
 	"find":
 	{
@@ -796,6 +811,10 @@
 		"height": 104.0,
 		"where_history":
 		[
+			"E:\\wamp\\www\\luwk\\mikaigit\\mikaigz\\public\\backend",
+			"E:\\wamp\\www\\luwk\\mikaigit\\mikaigz\\application",
+			"E:\\wamp\\www\\luwk\\mikaigit\\mikaigz\\thinkphp",
+			"E:\\wamp\\www\\luwk\\mikaigit\\mikaigz\\application",
 			"E:\\wamp\\www\\luwk\\loveschool\\Code\\JKCMS\\Jingkai\\Api",
 			"E:\\wamp\\www\\luwk\\loveschool\\Code\\JKCMS\\Jingkai\\Backend\\Template\\ProvincialCity",
 			"E:\\wamp\\www\\luwk\\loveschool\\Code\\JKCMS\\Jingkai\\Backend\\Template",
@@ -919,11 +938,7 @@
 			"E:\\wamp\\www\\luwk\\loveschool\\Code\\JKCMS\\Jingkai\\Backend\\Template",
 			"E:\\wamp\\www\\luwk\\loveschool\\Code",
 			"E:\\wamp\\www\\luwk\\loveschool\\Code\\JKCMS\\Jingkai\\Api\\Controller",
-			"E:\\wamp\\www\\luwk\\lvri\\Code\\Application\\Admin\\View",
-			"E:\\wamp\\www\\luwk\\lvri\\Code\\Application\\Home\\View",
-			"E:\\wamp\\www\\luwk\\lvri\\Code\\Application\\Admin\\View",
-			"E:\\wamp\\www\\luwk\\lvri\\Code\\Application\\Admin\\Controller",
-			"E:\\wamp\\www\\luwk\\lvri\\Code\\Application\\Home\\Model"
+			"E:\\wamp\\www\\luwk\\lvri\\Code\\Application\\Admin\\View"
 		]
 	},
 	"find_state":
@@ -931,6 +946,51 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"<?php\n// +----------------------------------------------------------------------\n// | ThinkPHP [ WE CAN DO IT JUST THINK ]\n// +----------------------------------------------------------------------\n// | Copyright (c) 2006~2016 http://thinkphp.cn All rights reserved.\n// +----------------------------------------------------------------------\n// | Licensed ( http://www.apache.org/licenses/LICENSE-2.0 )\n// +----------------------------------------------------------------------\n// | Author: liu21st <liu21st@gmail.com>\n// +----------------------------------------------------------------------\n\nreturn [\n    // +----------------------------------------------------------------------\n    // | 应用设置\n    // +----------------------------------------------------------------------\n\n    // 应用命名空间\n    'app_namespace'          => 'app',\n    // 应用调试模式\n    'app_debug'              => true,\n    // 应用Trace\n    'app_trace'              => false,\n    // 应用模式状态\n    'app_status'             => '',\n    // 是否支持多模块\n    'app_multi_module'       => true,\n    // 入口自动绑定模块\n    'auto_bind_module'       => false,\n    // 注册的根命名空间\n    'root_namespace'         => [],\n    // 扩展函数文件\n    'extra_file_list'        => [THINK_PATH . 'helper' . EXT],\n    // 默认输出类型\n    'default_return_type'    => 'html',\n    // 默认AJAX 数据返回格式,可选json xml ...\n    'default_ajax_return'    => 'json',\n    // 默认JSONP格式返回的处理方法\n    'default_jsonp_handler'  => 'jsonpReturn',\n    // 默认JSONP处理方法\n    'var_jsonp_handler'      => 'callback',\n    // 默认时区\n    'default_timezone'       => 'PRC',\n    // 是否开启多语言\n    'lang_switch_on'         => false,\n    // 默认全局过滤方法 用逗号分隔多个\n    'default_filter'         => '',\n    // 默认语言\n    'default_lang'           => 'zh-cn',\n    // 应用类库后缀\n    'class_suffix'           => false,\n    // 控制器类后缀\n    'controller_suffix'      => false,\n\n    // +----------------------------------------------------------------------\n    // | 模块设置\n    // +----------------------------------------------------------------------\n\n    // 默认模块名\n    'default_module'         => 'Frontend',\n    // 禁止访问模块\n    'deny_module_list'       => ['common'],\n    // 默认控制器名\n    'default_controller'     => 'Test',\n    // 默认操作名\n    'default_action'         => 'index',\n    // 默认验证器\n    'default_validate'       => '',\n    // 默认的空控制器名\n    'empty_controller'       => 'Error',\n    // 操作方法后缀\n    'action_suffix'          => '',\n    // 自动搜索控制器\n    'controller_auto_search' => false,\n\n    // +----------------------------------------------------------------------\n    // | URL设置\n    // +----------------------------------------------------------------------\n\n    // PATHINFO变量名 用于兼容模式\n    'var_pathinfo'           => 's',\n    // 兼容PATH_INFO获取\n    'pathinfo_fetch'         => ['ORIG_PATH_INFO', 'REDIRECT_PATH_INFO', 'REDIRECT_URL'],\n    // pathinfo分隔符\n    'pathinfo_depr'          => '/',\n    // URL伪静态后缀\n    'url_html_suffix'        => 'html',\n    // URL普通方式参数 用于自动生成\n    'url_common_param'       => false,\n    // URL参数方式 0 按名称成对解析 1 按顺序解析\n    'url_param_type'         => 0,\n    // 是否开启路由\n    'url_route_on'           => true,\n    // 路由使用完整匹配\n    'route_complete_match'   => false,\n    // 路由配置文件（支持配置多个）\n    'route_config_file'      => ['route'],\n    // 是否强制使用路由\n    'url_route_must'         => false,\n    // 域名部署\n    'url_domain_deploy'      => false,\n    // 域名根，如thinkphp.cn\n    'url_domain_root'        => '',\n    // 是否自动转换URL中的控制器和操作名\n    'url_convert'            => true,\n    // 默认的访问控制器层\n    'url_controller_layer'   => 'controller',\n    // 表单请求类型伪装变量\n    'var_method'             => '_method',\n    // 表单ajax伪装变量\n    'var_ajax'               => '_ajax',\n    // 表单pjax伪装变量\n    'var_pjax'               => '_pjax',\n    // 是否开启请求缓存 true自动缓存 支持设置请求缓存规则\n    'request_cache'          => false,\n    // 请求缓存有效期\n    'request_cache_expire'   => null,\n\n    // +----------------------------------------------------------------------\n    // | 模板设置\n    // +----------------------------------------------------------------------\n\n    'template'               => [\n        // 模板引擎类型 支持 php think 支持扩展\n        'type'         => 'Think',\n        // 模板路径\n        'view_path'    => '',\n        // 模板后缀\n        'view_suffix'  => 'html',\n        // 模板文件名分隔符\n        'view_depr'    => DS,\n        // 模板引擎普通标签开始标记\n        'tpl_begin'    => '{',\n        // 模板引擎普通标签结束标记\n        'tpl_end'      => '}',\n        // 标签库标签开始标记\n        'taglib_begin' => '{',\n        // 标签库标签结束标记\n        'taglib_end'   => '}',\n    ],\n\n    // 视图输出字符串内容替换\n    'view_replace_str'       => [\n        // mikai add start\n        // '__COMMON__' => dirname($_SERVER['SCRIPT_NAME']).'/public/common',\n        //或者\n        '__COMMON__' => think\\Url::build('/').'public/common',\n        // mikai add end\n    ],\n    // 默认跳转页面对应的模板文件\n    'dispatch_success_tmpl'  => THINK_PATH . 'tpl' . DS . 'dispatch_jump.tpl',\n    'dispatch_error_tmpl'    => THINK_PATH . 'tpl' . DS . 'dispatch_jump.tpl',\n\n    // +----------------------------------------------------------------------\n    // | 异常及错误设置\n    // +----------------------------------------------------------------------\n\n    // 异常页面的模板文件\n    'exception_tmpl'         => THINK_PATH . 'tpl' . DS . 'think_exception.tpl',\n\n    // 错误显示信息,非调试模式有效\n    'error_message'          => '页面错误！请稍后再试～',\n    // 显示错误信息\n    'show_error_msg'         => false,\n    // 异常处理handle类 留空使用 \\think\\exception\\Handle\n    'exception_handle'       => '',\n\n    // +----------------------------------------------------------------------\n    // | 日志设置\n    // +----------------------------------------------------------------------\n\n    'log'                    => [\n        // 日志记录方式，内置 file socket 支持扩展\n        'type'  => 'File',\n        // 日志保存目录\n        'path'  => LOG_PATH,\n        // 日志记录级别\n        'level' => [],\n    ],\n\n    // +----------------------------------------------------------------------\n    // | Trace设置 开启 app_trace 后 有效\n    // +----------------------------------------------------------------------\n    'trace'                  => [\n        // 内置Html Console 支持扩展\n        'type' => 'Html',\n    ],\n\n    // +----------------------------------------------------------------------\n    // | 缓存设置\n    // +----------------------------------------------------------------------\n\n    'cache'                  => [\n        // 驱动方式\n        'type'   => 'File',\n        // 缓存保存目录\n        'path'   => CACHE_PATH,\n        // 缓存前缀\n        'prefix' => '',\n        // 缓存有效期 0表示永久缓存\n        'expire' => 0,\n    ],\n\n    // +----------------------------------------------------------------------\n    // | 会话设置\n    // +----------------------------------------------------------------------\n\n    'session'                => [\n        'id'             => '',\n        // SESSION_ID的提交变量,解决flash上传跨域\n        'var_session_id' => '',\n        // SESSION 前缀\n        'prefix'         => 'think',\n        // 驱动方式 支持redis memcache memcached\n        'type'           => '',\n        // 是否自动开启 SESSION\n        'auto_start'     => true,\n    ],\n\n    // +----------------------------------------------------------------------\n    // | Cookie设置\n    // +----------------------------------------------------------------------\n    'cookie'                 => [\n        // cookie 名称前缀\n        'prefix'    => '',\n        // cookie 保存时间\n        'expire'    => 0,\n        // cookie 保存路径\n        'path'      => '/',\n        // cookie 有效域名\n        'domain'    => '',\n        //  cookie 启用安全传输\n        'secure'    => false,\n        // httponly设置\n        'httponly'  => '',\n        // 是否使用 setcookie\n        'setcookie' => true,\n    ],\n\n    //分页配置\n    'paginate'               => [\n        'type'      => 'bootstrap',\n        'var_page'  => 'page',\n        'list_rows' => 15,\n    ],\n];\n",
+			"footer",
+			"分类",
+			"aaa",
+			"url",
+			"我的桌面",
+			"c=\"./",
+			"ref=\"/f",
+			"f=\"./",
+			"Frontend",
+			"模块",
+			"多模块",
+			"Frontend",
+			"frontend",
+			"Frontend",
+			"frontend",
+			"Frontend",
+			"frontend",
+			"Frontend",
+			"多模块",
+			"模块",
+			"module",
+			"MODULE_ALLOW_LIST",
+			"list",
+			"rc=\"imag",
+			"ef=\"singl",
+			"ref=\"archi",
+			"href=\"contac",
+			"ef=\"index.ht",
+			"c=\"js/",
+			"rc=\"js",
+			"ref=\"font-",
+			"f=\"owl-carouse",
+			"ef=\"cs",
+			"rc=\"im",
+			"ref=\"single.htm",
+			"ref=\"archive.",
+			"ref=\"contact.ht",
+			"ef=\"index.ht",
+			"c=\"js",
+			"c=\"j",
+			"f=\"font-awesom",
+			"ref=\"owl-car",
+			"ref=\"css",
+			"/..",
 			"http://loveschool.test.jingkaigz.com",
 			"http://loveschool.test.jingkaigz.com/wap",
 			"postUserform",
@@ -1013,52 +1073,7 @@
 			"getSchoolLists",
 			"div",
 			"getSchoolLists",
-			"school-list\" style=\"width: 7",
-			"hool-list",
-			"div",
-			"未开通",
-			"style=\"width: 100",
-			"id=\"school-list",
-			"position: relative",
-			"idth: 100%",
-			"d=\"school-lis",
-			"school-list",
-			"span",
-			"me=\"city",
-			"val",
-			"name=\"cityName",
-			"yName='+init.cityName",
-			"Name='+init.cityNa",
-			"yName='+init.cityName",
-			"cityName",
-			"ityId = $(this).t",
-			"utsideschool_results.html?cityId=",
-			"var cityId = $(this).attr('data-id');",
-			"cityId",
-			"cityName",
-			"search_outsideschool_results",
-			"cityName",
-			"search_outsideschool_results",
-			"cityName",
-			"search_outsideschool_results",
-			"var cityName = $(this).attr('data-id');",
-			"cityLists",
-			"lists",
-			"getCityId",
-			"getSchoolLists",
-			"school_name",
-			"cityName",
-			"store",
-			"){\n",
-			"school_name",
-			"搜索学校",
-			"submit",
-			"search-form",
-			"search",
-			"all-city",
-			"data",
-			"fixed_sort",
-			"data"
+			"school-list\" style=\"width: 7"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1077,8 +1092,228 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content"
+							],
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "mikaigz.sublime-project",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 45,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										43,
+										44
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										0,
+										1
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content"
+							],
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/JavaScript/JSON.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -1268,16 +1503,24 @@
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "luwkcon",
+		"last_filter": "",
 		"selected_items":
 		[
 			[
-				"luwkcon",
+				"",
+				"E:\\wamp\\www\\luwk\\loveschool\\loveschool.sublime-project"
+			],
+			[
+				"luwk",
 				"E:\\wamp\\www\\luwkconf\\luwkconf.sublime-project"
 			],
 			[
-				"",
-				"E:\\wamp\\www\\luwk\\mikaigit\\mikaigit.sublime-project"
+				"luwkc",
+				"E:\\wamp\\www\\luwkconf\\luwkconf.sublime-project"
+			],
+			[
+				"luwkcon",
+				"E:\\wamp\\www\\luwkconf\\luwkconf.sublime-project"
 			],
 			[
 				"jingkai",
