@@ -6,7 +6,7 @@
           <a><cite>会员管理</cite></a>
           <a><cite>分类管理</cite></a>
         </span>
-        <a class="layui-btn layui-btn-small" style="line-height:1.6em;margin-top:3px;float:right"  href="javascript:location.replace(location.href);" title="刷新"><i class="layui-icon" style="line-height:30px">ဂ</i></a>
+        <a id="refresh" class="layui-btn layui-btn-small" style="line-height:1.6em;margin-top:3px;float:right"  href="javascript:location.replace(location.href);" title="刷新"><i class="layui-icon" style="line-height:30px">ဂ</i></a>
     </div>
     <div class="x-body">
         <form class="layui-form x-center" action="" style="width:50%">
@@ -94,7 +94,7 @@
                             {$vo.category_name}
                         </td>
                         <td class="td-manage">
-                            <a title="编辑" href="javascript:;" onclick="cate_edit('编辑','{:url('category/edit')}','4','','510')"
+                            <a title="编辑" href="javascript:;" onclick="cate_edit('编辑','{:url('category/edit',['id'=>$vo.id])}','4','','510')"
                             class="ml-5" style="text-decoration:none">
                                 <i class="layui-icon">&#xe642;</i>
                             </a>
@@ -106,11 +106,87 @@
                     </tr>
                 {/volist}
             </tbody>
+            <script id="test" type="text/html">
+            <h1>{{title}}</h1>
+            <ul>
+                {{each list as value i}}
+                    <li>索引 {{i + 1}} ：{{value.category_name}}</li>
+                    <tr>
+                        <td>
+                            <input type="checkbox" value="1" name="">
+                        </td>
+                        <td>
+                            {$vo.id}
+                        </td>
+                        <td>
+                            {$vo.sort}
+                        </td>
+                        <td>
+                            {$vo.category_name}
+                        </td>
+                        <td class="td-manage">
+                            <a title="编辑" href="javascript:;" onclick="cate_edit('编辑','{:url('category/edit',['id'=>$vo.id])}','4','','510')"
+                            class="ml-5" style="text-decoration:none">
+                                <i class="layui-icon">&#xe642;</i>
+                            </a>
+                            <a title="删除" href="javascript:;" onclick="cate_del(this,'1')" 
+                            style="text-decoration:none">
+                                <i class="layui-icon">&#xe640;</i>
+                            </a>
+                        </td>
+                    </tr>
+                {{/each}}
+            </ul>
+            </script>
         </table>
     </div>    
+    
 {/block}
 {block name="script"}
     <script>
+        var data = {
+            title: '标签',
+            list: ['文艺', '博客', '摄影', '电影', '民谣', '旅行', '吉他']
+        };
+        layui.use(['form','layer'], function(){
+            $ = layui.jquery;
+            $.ajax({
+            type: "POST",
+                url: "{:url('category/index')}",
+                data: {},
+                success: function(msg){
+                    // console.log(msg);
+                    if(msg.code == 200){
+                        layer.alert("编辑成功", {icon: 6},function () {
+                            // 获得frame索引
+                            var index = parent.layer.getFrameIndex(window.name);
+                            //关闭当前frame
+                            // parent.refresh.click();
+                            parent.location.reload();
+                            parent.layer.close(index);
+
+                        });str = msg.data;            
+        console.log(str);
+        data = {
+            title: '标签',
+            list: str
+        };
+        var html = template('test', data);
+        document.getElementById('x-link').innerHTML = html;
+                    }else{
+                        layer.alert("编辑失败", {icon: 6},function (index) {
+                            // 获得frame索引
+                            // var index = parent.layer.getFrameIndex(window.name);
+                            //关闭当前frame
+                            // parent.layer.close(index);
+                            layer.close(index);
+                        });
+                    }
+                }
+            });
+        })
+        
+
         layui.use(['element','layer','form'], function(){
             $ = layui.jquery;//jquery
           lement = layui.element();//面包导航

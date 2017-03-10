@@ -17,12 +17,17 @@ class Category extends Mkbackend
         $info = $Category->find(1);
         // var_dump($info->category_name);die;
         var_dump($info);die;*/
-
         $data = CategoryModel::select();
         $title = '米凯博客';
-        $this->assign('title',$title);
-        $this->assign('data',$data);
-        return $this->fetch('index');
+
+        $request = Request::instance();
+        if ($request->isAjax()) {
+            return $this->s('成功！',$data);
+        }else{
+            $this->assign('title',$title);
+            $this->assign('data',$data);
+            return $this->fetch('index');
+        }        
     }
 
     /**
@@ -39,7 +44,7 @@ class Category extends Mkbackend
         if (!$data) {
             $this->jsonReturn(0, '数据不存在');
         }
-        if ($request->isAjax()) {       
+        if ($request->isAjax()) {     
             $postData = $request->param();
             if ($Model->updateData($postData)) {
                 return $this->s('编辑成功！');

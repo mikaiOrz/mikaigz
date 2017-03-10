@@ -20,8 +20,7 @@ class Category extends Mkmodel
      */
     public function edit($id)
     {
-        $map = array();
-        $data = $this->alias('c')->field(true)->where($map)->find();
+        $data = $this->find($id);
 
         return $data;
     }
