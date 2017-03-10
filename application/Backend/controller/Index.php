@@ -2,7 +2,7 @@
 namespace app\Backend\controller;
 use think\Db;
 use think\View;
-use app\Backend\model\Category;
+use app\Backend\model\Category as CategoryModel;
 
 class Index extends Mkbackend
 {
@@ -17,7 +17,7 @@ class Index extends Mkbackend
         // var_dump($info->category_name);die;
         var_dump($info);die;*/
 
-        $data = Category::column('category_name','id');
+        $data = CategoryModel::column('category_name','id');
         // var_dump($data);die;
         $title = '米凯博客';
         $this->assign('title',$title);

@@ -12,4 +12,17 @@ class Category extends Mkmodel
         parent::initialize();
         //TODO:自定义的初始化
     }
+
+    /**
+     * 编辑
+     *
+     * @author Luwk <luwk@1101260312.com>
+     */
+    public function edit($id)
+    {
+        $map = array();
+        $data = $this->alias('c')->field(true)->where($map)->find();
+
+        return $data;
+    }
 }
